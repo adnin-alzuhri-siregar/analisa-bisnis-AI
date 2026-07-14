@@ -49,7 +49,6 @@ with tab_prediksi:
     try:
         ai_model = joblib.load('mesin_prediksi_sales_v1.pkl')
         model_siap = True
-    except Exception as e:
         except Exception as e:
     st.error(f"⚠️ Error memuat model: {e}")
         model_siap = False
