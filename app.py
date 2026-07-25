@@ -25,7 +25,7 @@ with st.sidebar:
     st.caption("© 2026 Analytics Division")
 
 # 4. FUNGSI MUAT DATA
-@st.cache_data
+# @st.cache_data
 def load_data():
     try:
         df = pd.read_csv('DATA_SALES_AMAN_PORTFOLIO.csv')
